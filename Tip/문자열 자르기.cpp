@@ -1,3 +1,10 @@
+#include <iostream>
+#include <string>
+#include <vector>
+//strtok는 방금전에 분리한 문자열의 분리지점 바로 다음 주소값을 기억한다. 
+//첫번째 인자로 str의 주소값이 들어오면 거기서 부터 분리를 시작하고
+//NULL이 들어오면 이전에 기억된 주소부터 분리를 시도한다. 
+using namespace std;
 //input의 입력 문자열을 histo 배열에 저장한다. 
 void stringToArray(string input, vector<long long>& histo) {
 	//공백을 기준으로 문자열을 자른다. 
